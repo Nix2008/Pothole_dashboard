@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Map',
+    'django_google_maps',
 ]
 
 MIDDLEWARE = [
@@ -118,3 +120,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+GOOGLE_MAPS_API_KEY = 'AIzaSyDo39FUxL1O5TEucExurMVNIo770cag5FQ'
